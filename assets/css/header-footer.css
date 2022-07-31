@@ -1,0 +1,100 @@
+*{margin: 0;padding: 0;}
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #e1e3e6;
+    min-width: 580px;
+}
+.safe-area{
+    margin-top: 10px;
+    padding: 7px;
+    background-color: #fff;
+    box-shadow: 0 0 7px #858585;
+    border-radius: 5px;
+}
+.bg-dark2{
+    background-color: #181921;
+}
+
+/* HEADER */
+.header-top{
+    background-color: #25B2E9;
+}
+.header-top span{
+    color: white;
+    font-size: 14px;
+}
+
+.btn-danger{
+    background-color: #CD1818;
+}
+.btn-danger:hover{
+    background-color: #a11313;
+}
+.header-dropdown-menu i{
+    color: white;
+    font-size: 22px;
+}
+.header-dropdown-menu{
+    line-height: 40px;
+}
+.dropdown-item:hover{
+    background-color: rgb(218, 218, 218);
+}
+.header-logo{
+    margin-top: 2px;
+}
+.search-bar{
+    width: 50%;
+}
+.search-bar .btn{
+    background-color: #CD1818;
+    color: white;
+}
+
+/* FOOTER */
+.footer{
+    padding: 0 30px;
+    margin-top: 20px;
+}
+
+/* login */
+.account-logo-box {
+    background-color: #1A89DA;
+}
+.error{
+    color: red;
+}
+.title {
+    color: white;
+    font-size: 24px;
+}
+.card {
+    box-shadow: 6px 6px 15px #383838;
+}
+.form-control {
+    border: 1px solid grey;
+}
+.log-img img{
+    border-radius: 50%;
+}
+.form-control:focus {
+    border: 1px solid blue;
+}
+@media (max-width: 992px){
+    .container{
+        max-width: 900px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .container{
+        margin: 0;
+        padding: 0;
+        min-width: none;
+        max-width: none;
+    }
+}
+@media only screen and (max-width: 743px) {
+    .search-bar{
+        width: 30%;
+    }
+}

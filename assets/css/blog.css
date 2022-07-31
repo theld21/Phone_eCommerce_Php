@@ -1,0 +1,39 @@
+.safe-area{
+    padding: 10px;
+    margin-top: 20px;
+}
+.new a{
+    text-decoration: none;
+    color: black;
+}
+.new a:hover{
+    color: blue;
+}
+.recent ul{
+    padding: 0;
+}
+.recent li{
+    margin-top: 10px;
+}
+.recent a{
+    text-decoration: none;
+    color: black;
+}
+.recent a:hover{
+    color: blue;
+}
+.recent img{
+    object-fit: cover;
+}
+.post img{
+    max-width: 100%;
+    max-height: 160px;
+    object-fit: cover;
+}
+.post a{
+    text-decoration: none;
+    color: black;
+}
+.post a:hover{
+    color: blue;
+}

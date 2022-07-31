@@ -1,0 +1,107 @@
+/* banner */
+.carousel-inner{
+    border-radius: 5px;
+}
+/* filter */
+.filter .filter-btn{
+    margin-top: 9px;
+}
+.filter .filter-btn span{
+    margin-top: 10px;
+    padding: 9px;
+}
+.filter .dropdown{
+    background-color: #F8F9FA;
+    border: 1px solid #c5c5c5;
+    box-shadow: 0 0 3px #d6d6d6;
+    border-radius: 5px;
+    margin-left: 10px;
+    transition: 0.2s;
+}
+.filter .dropdown:hover{
+    background-color: #c0c0c0;
+    cursor: pointer;
+}
+/* products */
+.products{
+    padding: 10px 25px;
+}
+.products .product-item{
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 4px #d6d6d6;
+    transition: 0.2s;
+}
+.products .product-item:hover{
+    border: 1px solid #dfdfdf;
+    box-shadow: 0 0 10px #1b1b1b;
+}
+.products .product-item img{
+    overflow: hidden;
+    width: 100%;
+    transition: 0.4s all ease-in-out;
+}
+.products .product-item:hover img{
+    transform: scale(1.04);
+}
+.products .product-item .product-open-btn{
+    opacity: 0;
+}
+.products .product-item:hover .product-open-btn{
+    opacity: 1;
+}
+.products .product-name{
+    margin-top: 13px;
+    font-size: 18px;
+    font-weight: bolder;
+}
+.products .product-name a{
+    text-decoration: none;
+    color: black;
+}
+.products .product-price{
+    margin-top: 3px;
+    color: #CD1818;
+    font-size: 19px;
+    font-weight: bolder;
+}
+.products .old-price{
+    text-decoration-line: line-through;
+    font-size: 15px;
+    font-weight: light;
+    color: rgb(97, 97, 97);
+}
+.products .product-info{
+    margin-top: 3px;
+}
+.products .product-info span{
+    margin-right: 3px;
+    color:#8a8a8a;
+    font-size: 14px;
+}
+.products .product-open-btn{
+    margin-top: 10px;
+}
+.products .btn-danger{
+    background-color: #CD1818;
+}
+.products .btn-danger:hover{
+    background-color: #AE1427;
+}
+.product-item img{
+    max-width: 250px;
+}
+.product-item img{
+    max-width: 250px;
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+@media (max-width: 580px){
+    .col-sm-6 {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+}
